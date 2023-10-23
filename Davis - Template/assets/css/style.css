@@ -3120,3 +3120,47 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+/* CSS for the 6 videos in the grid */
+.video-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-video {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* CSS for the separate video */
+.separate-video {
+    text-align: center;
+    margin: 10px;
+}
+
+.separate-video video {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height as needed */
+}
